@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #228B22; // forest green
+  padding: 1rem 2rem;
+
+  .navbar-brand a {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+
+    li a {
+      color: #FFFFFF;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #F9F9F6; // soft ivory white on hover
+      }
+    }
+  }
+}
