@@ -1,30 +1,37 @@
 .navbar {
+  background-color: #228B22; // Forest green
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #228B22; // forest green
-  padding: 1rem 2rem;
 
-  .navbar-brand a {
-    color: #FFFFFF;
+  .brand {
     font-size: 1.5rem;
     font-weight: bold;
-    text-decoration: none;
+    color: #f8f9f5; // light creamy white
+    letter-spacing: 1px;
   }
 
-  .navbar-links {
+  .nav-links {
     display: flex;
-    list-style: none;
     gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
-    li a {
-      color: #FFFFFF;
+    a {
+      color: #f8f9f5; // light creamy white
       text-decoration: none;
       font-weight: 500;
-      transition: color 0.3s;
+      font-size: 1rem;
+      transition: color 0.3s ease;
 
       &:hover {
-        color: #F9F9F6; // soft ivory white on hover
+        color: #e6f0e6; // soft white-green hover
+      }
+
+      &:active {
+        color: #cce5cc; // pressed link, subtle green-tinted white
       }
     }
   }

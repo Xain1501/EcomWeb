@@ -1,0 +1,19 @@
+.product-grid {
+  padding: 2rem 1rem;
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .col {
+    display: flex;
+  }
+
+  app-product-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
